@@ -16,7 +16,7 @@ main section {
 #aboutus .container {
     display: flex;
     flex-direction: column;
-  
+
 
     figure {
         padding: var(--gap);
@@ -45,5 +45,29 @@ main section {
         color: var(--text-color);
         line-height: 1.5rem;
         margin-bottom: var(--gap);
+    }
+}
+
+#calltoaction {
+    background-image: url(../images/images/qt-bg.jpg);
+    padding: 5rem 0rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: white;
+    background-color: #666;
+    background-blend-mode: multiply;
+
+    blockquote {
+        font-style: italic;
+        font-family: var(--secondary-font);
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: var(--gap);
+    }
+
+    author {
+        font-size: 1.2rem;
     }
 }
