@@ -1,3 +1,8 @@
+@media (width>=48rem){
+/* 2 columnas en el menu */
+}
+
+
 @media (width>=62rem) {
     header .hamburger {
         display: none;
