@@ -77,6 +77,10 @@ main section {
     display: grid;
     gap: var(--gap);
 
+    article {
+        width: 100%;
+    }
+
     /*   &:hover {
         .content {
             top: -3em;
@@ -108,5 +112,4 @@ main section {
         margin-top: 1rem;
 
     }
-}
 }

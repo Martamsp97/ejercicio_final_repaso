@@ -1,6 +1,12 @@
-@media (width>=48rem){
-/* 2 columnas en el menu */
+@media (width>=48rem) {
+
+    /* 2 columnas en el menu */
+    #menu .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 
 
 @media (width>=62rem) {
@@ -28,5 +34,10 @@
     #aboutus .container {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    #menu .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
