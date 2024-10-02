@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* Sirve para hacer los puntos de ancla animados */
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #d0a772;
+    --secondary-color: #f8f9fa;
+    --primary-font: 'Athiti', sans-serif;
+    --secondary-font: 'Arbutus Sáb', serif;
+    --text-color: #666666;
+    --gap: 1rem;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
