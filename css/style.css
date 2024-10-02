@@ -6,9 +6,8 @@
 /* fuentes Arbutus slab y Athiti (400, 500, 600) */
 @import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Athiti:wght@400;500;600&display=swap');
 
-@import url(layout.css);
-@import url('header.css');
-
-
+@import url('./layout.css');
+@import url('./header.css');
+@import url('./footer.css');
 /* la mediaqueries tiene que ir siempre la última */
 @import url('mediaqueries.css');
