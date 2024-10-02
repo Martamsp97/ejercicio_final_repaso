@@ -11,6 +11,6 @@
 @import url('./footer.css');
 
 @import url('./hero.css');
-
+@import url('./main.css');
 /* la mediaqueries tiene que ir siempre la última */
 @import url('mediaqueries.css');
