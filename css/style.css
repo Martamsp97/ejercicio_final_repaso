@@ -9,5 +9,7 @@
 @import url('./layout.css');
 @import url('./header.css');
 @import url('./footer.css');
+
+@import url('./hero.css');
 /* la mediaqueries tiene que ir siempre la última */
 @import url('mediaqueries.css');
